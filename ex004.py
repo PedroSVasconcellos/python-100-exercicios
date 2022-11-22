@@ -1,0 +1,11 @@
+digitado = input('Digite algo: ')
+
+print(f'"{digitado}" é um tipo primitivo: {type(digitado)}')
+print(f'"{digitado}" é um numérico? {digitado.isnumeric()}')
+print(f'"{digitado}" é alfanumérico? {digitado.isalnum()}')
+print(f'"{digitado}" é alfabético? {digitado.isalpha()}')
+print(f'"{digitado}" contém espaços? {digitado.isspace()}')
+print(f'"{digitado}" está em maiúsculas? {digitado.isupper()}')
+print(f'"{digitado}" está em minúsculas? {digitado.islower()}')
+print(f'"{digitado}" começa com maiúsculas? {digitado.istitle()}')
+print(f'"{digitado}" é um acento ou caracter? {digitado.isascii()}')
